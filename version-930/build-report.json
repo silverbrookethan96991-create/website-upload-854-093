@@ -1,0 +1,26 @@
+{
+  "parsed_movie_count": 2000,
+  "detail_page_count": 2000,
+  "category_page_count": 12,
+  "category_covered_movie_count": 2000,
+  "html_page_count": 2017,
+  "html_pages_with_baidu_analytics": 2017,
+  "logo": "精选电影",
+  "site_title": "精选电影-热门好看的电影大全-高清影片在线观看",
+  "category_counts": {
+    "jingxuan": 167,
+    "remen": 167,
+    "koubei": 167,
+    "xuanyi-jingsong": 167,
+    "kehuan-maoxian": 167,
+    "dongzuo-fanzui": 167,
+    "aiqing-xiju": 167,
+    "juqing-jiating": 167,
+    "qihuan-donghua": 166,
+    "yazhou-yingxiang": 166,
+    "oumei-jingpin": 166,
+    "jishi-zongyi": 166
+  },
+  "cover_rule": "cover = ((movie_number - 1) % 150) + 1 .jpg",
+  "player": "HLS m3u8 player initialized by assets/player.js and assets/hls-global.js"
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>搜索剧集-推荐电视剧大全-精选剧集合集-高清剧集在线播放</title>
+<meta name="description" content="搜索推荐电视剧、精选剧集、高清剧集与在线播放内容。">
+<meta name="keywords" content="推荐电视剧,精选剧集,电视剧大全,高清剧集,在线播放,热播电视剧,热门电视剧,剧集合集">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./assets/base.css">
+<link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="./index.html" aria-label="高清剧集大全">
+      <span class="brand-mark">剧</span><span class="brand-name">高清剧集大全</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类总览</a>
+      <a href="./category-suspense-crime.html">悬疑犯罪</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-romance-family.html">爱情家庭</a><a href="./category-sci-fi-fantasy.html">科幻奇幻</a><a href="./category-comedy-variety.html">喜剧综艺</a>
+      <a href="./rankings.html">排行榜</a>
+    </nav>
+    <form class="nav-search" action="./search.html" method="get">
+      <input name="q" type="search" placeholder="搜索剧集..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-btn" type="button" data-menu-toggle aria-label="菜单">☰</button>
+  </div>
+  <div class="mobile-menu" data-mobile-menu>
+    <form action="./search.html" method="get"><input name="q" type="search" placeholder="搜索剧集..."><button type="submit">搜索</button></form>
+    <a href="./index.html">首页</a><a href="./categories.html">分类总览</a><a href="./category-suspense-crime.html">悬疑犯罪</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-romance-family.html">爱情家庭</a><a href="./category-sci-fi-fantasy.html">科幻奇幻</a><a href="./category-comedy-variety.html">喜剧综艺</a><a href="./category-animation-youth.html">动画青春</a><a href="./category-history-reality.html">历史纪实</a><a href="./category-global-series.html">全球剧集</a><a href="./rankings.html">排行榜</a>
+  </div>
+</header>
+<main><section class="page-hero"><div class="page-title"><div class="breadcrumb"><a href="./index.html">首页</a><span>/</span><span>搜索</span></div><h1>搜索精选剧集</h1><p>输入片名、地区、年份或题材，快速查找高清剧集内容。</p><div class="search-hero"><input data-search-box type="search" placeholder="搜索片名、地区、年份、题材"><button type="button" onclick="document.querySelector('[data-search-box]').dispatchEvent(new Event('input'))">搜索</button></div></div></section>
+<section class="section"><div class="empty-state" data-search-empty>没有匹配内容</div><div class="grid-cards" data-search-results></div></section>
+<script src="./assets/search-data.js"></script></main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><div class="footer-logo">高清剧集大全</div><p>整理推荐电视剧与精选剧集内容，适合按题材、口碑和热度查找不同类型剧集。</p></div>
+    <div class="footer-links"><a href="./index.html">首页</a><a href="./categories.html">分类</a><a href="./rankings.html">排行榜</a><a href="./category-suspense-crime.html">悬疑犯罪</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-romance-family.html">爱情家庭</a><a href="./category-sci-fi-fantasy.html">科幻奇幻</a><a href="./category-comedy-variety.html">喜剧综艺</a><a href="./category-animation-youth.html">动画青春</a><a href="./category-history-reality.html">历史纪实</a><a href="./category-global-series.html">全球剧集</a></div>
+  </div>
+  <div class="copyright">© 2026 高清剧集大全. 保留所有权利.</div>
+</footer>
+<script src="./assets/site.js"></script>
+
+</body>
+</html>
